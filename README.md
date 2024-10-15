@@ -20,6 +20,10 @@
   - Tailwind CSS
   - Typescript
 
+## Prerequisites
+- MongoDB Installed
+- PNPM Installed (if not `npm i -g pnpm`) 
+
 ## Run App
 
 Clone the repo and cd into the project folder
