@@ -1,0 +1,17 @@
+{
+  "name": "nest-react-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm run setup:backend && npm run setup:frontend",
+    "setup:backend": "cd backend && npx pnpm install && cd ..",
+    "setup:frontend": "cd frontend && npx pnpm install && cd ..",
+    "start": "npx pm2 restart pm2.config.js",
+    "stop": "npx pm2 kill",
+    "restart": "npm stop && npm start"
+  },
+  "keywords": [],
+  "author": "Ghazi Khan",
+  "license": "ISC"
+}
